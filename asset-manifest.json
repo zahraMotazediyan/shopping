@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/SmartShop/static/css/main.ef8eed0f.css",
-    "main.js": "/SmartShop/static/js/main.5984aa32.js",
-    "static/media/group-friend.png": "/SmartShop/static/media/group-friend.e6746ad90d4deae81dab.png",
-    "static/media/teamwork.png": "/SmartShop/static/media/teamwork.f6e787557e4f6cf3d91f.png",
-    "static/media/illustration.png": "/SmartShop/static/media/illustration.ab58ed744384cf4c838c.png",
-    "static/media/Depositphotos.jpg": "/SmartShop/static/media/Depositphotos.262ed8a13f9e9eabdde3.jpg",
-    "static/media/group.jpg": "/SmartShop/static/media/group.264c2d99f9e2d71c1764.jpg",
-    "static/media/stylish.avif": "/SmartShop/static/media/stylish.0631debb921e2c8f87a0.avif",
-    "static/media/rendering.avif": "/SmartShop/static/media/rendering.af7f858fdc979b509f02.avif",
-    "index.html": "/SmartShop/index.html",
-    "static/media/shop.svg": "/SmartShop/static/media/shop.c1d746c38fe2ffe819a89d8160d557be.svg",
-    "static/media/trash.svg": "/SmartShop/static/media/trash.ac9f2f904ef99a18288f5f1dcd345bf1.svg",
-    "main.ef8eed0f.css.map": "/SmartShop/static/css/main.ef8eed0f.css.map",
-    "main.5984aa32.js.map": "/SmartShop/static/js/main.5984aa32.js.map"
+    "main.css": "/shopping/static/css/main.ef8eed0f.css",
+    "main.js": "/shopping/static/js/main.c6f8dd53.js",
+    "static/media/group-friend.png": "/shopping/static/media/group-friend.e6746ad90d4deae81dab.png",
+    "static/media/teamwork.png": "/shopping/static/media/teamwork.f6e787557e4f6cf3d91f.png",
+    "static/media/illustration.png": "/shopping/static/media/illustration.ab58ed744384cf4c838c.png",
+    "static/media/Depositphotos.jpg": "/shopping/static/media/Depositphotos.262ed8a13f9e9eabdde3.jpg",
+    "static/media/group.jpg": "/shopping/static/media/group.264c2d99f9e2d71c1764.jpg",
+    "static/media/stylish.avif": "/shopping/static/media/stylish.0631debb921e2c8f87a0.avif",
+    "static/media/rendering.avif": "/shopping/static/media/rendering.af7f858fdc979b509f02.avif",
+    "index.html": "/shopping/index.html",
+    "static/media/shop.svg": "/shopping/static/media/shop.c1d746c38fe2ffe819a89d8160d557be.svg",
+    "static/media/trash.svg": "/shopping/static/media/trash.ac9f2f904ef99a18288f5f1dcd345bf1.svg",
+    "main.ef8eed0f.css.map": "/shopping/static/css/main.ef8eed0f.css.map",
+    "main.c6f8dd53.js.map": "/shopping/static/js/main.c6f8dd53.js.map"
   },
   "entrypoints": [
     "static/css/main.ef8eed0f.css",
-    "static/js/main.5984aa32.js"
+    "static/js/main.c6f8dd53.js"
   ]
 }
