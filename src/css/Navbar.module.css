@@ -1,0 +1,177 @@
+.navbar {
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    background-color: #24465d;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.mobileNavigation {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.navbar nav ul li {
+    display: inline-block;
+    margin: 1.5vw;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.relative {
+    position: relative;
+}
+
+.navbar a:hover {
+    border-bottom: 1px solid silver;
+}
+
+.navbar .mobileNavigation {
+    display: none;
+}
+
+.navbar nav ul li img {
+    width: 30px;
+    filter: invert(1);
+}
+
+.navbar ul li span {
+    position: absolute;
+    top: -13px;
+    right: 0;
+    background: blue;
+    border-radius: 100%;
+    width: 18px;
+    text-align: center;
+    height: 22px;
+    color: white;
+}
+
+.shopCart img {
+    filter: invert(1);
+}
+
+@media (max-width: 768px) {
+    .navbar .navigation {
+        display: none;
+    }
+
+    .navbar .mobileNavigation {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar .mobileNavigation .hamburger {
+        position: absolute;
+        right: 18px;
+        cursor: pointer;
+    }
+
+    .navbar nav ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 71%;
+        width: 34%;
+        height: 54%;
+        background-color: #24465d;
+        border-top: 2px solid #24465d;
+        z-index: 2;
+    }
+
+    .navbar nav ul li {
+        padding-left: 15%;
+    }
+
+    .navbar {
+        opacity: 1;
+    }
+
+    .navbar a:hover {
+        border-bottom: none;
+        color: #181818;
+    }
+
+    .navbar ul li span {
+        position: absolute;
+        top: 28%;
+        right: 43%;
+        background-color: blue;
+        border-radius: 50%;
+        width: 18px;
+        text-align: center;
+        height: 22px;
+        display: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    .navbar ul li img {
+        display: none;
+    }
+
+    .shopCart img {
+        width: 30px;
+        position: absolute;
+        top: 17px;
+        right: 12%;
+    }
+
+    .shopCart span {
+        position: absolute;
+        top: 11px;
+        right: 12%;
+        background: blue;
+        text-align: center;
+        border-radius: 100%;
+        width: 18px;
+        height: 22px;
+        font-weight: bold;
+        color: white;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar nav ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 71%;
+        width: 38%;
+        height: 53%;
+        background-color: #24465d;
+        border-top: 2px solid #24465d;
+        z-index: 2;
+    }
+
+    .shopCart span {
+        position: absolute;
+        top: 11px;
+        right: 71px;
+        background: blue;
+        text-align: center;
+        border-radius: 50%;
+        width: 18px;
+        height: 22px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .shopCart img {
+        width: 30px;
+        position: absolute;
+        top: 17px;
+        right: 71px;
+    }
+}

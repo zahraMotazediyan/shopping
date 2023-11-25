@@ -1,0 +1,167 @@
+.cardImage {
+    width: 13rem;
+    height: 13rem;
+}
+
+.product_container {
+    border: 1px solid silver;
+    margin: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.product-container:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+
+.title {
+    padding-left: 0.95rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.p_price {
+    font-weight: 500;
+    padding-left: 0.95rem;
+    color: #2b2a2a;
+}
+
+.details {
+    padding-left: 0.95rem;
+    margin-top: 1rem;
+    text-decoration: none !important;
+}
+
+.details:hover {
+    color: #0d6efd;
+}
+
+.containerL_B {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.container_quantity {
+    display: flex;
+    padding: 1rem;
+}
+
+.AddToCart {
+    width: 7rem;
+    height: 2rem;
+    margin-right: 0.35rem;
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 0.25rem;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.button_ {
+    width: 2rem;
+    height: 2rem;
+    background: #0d6efd;
+    border: none;
+    color: white;
+    border-radius: 0.25rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.button_ img {
+    filter: invert(1);
+}
+
+.counter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0d6efd;
+    padding-right: 0.45rem;
+    padding-left: 0.45rem;
+}
+
+.button_:hover {
+    box-shadow: rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset,
+    rgba(0, 0, 0, 0.15) 0 -36px 30px 0 inset,
+    rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset,
+    rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 4px 2px,
+    rgba(0, 0, 0, 0.09) 0 8px 4px, rgba(0, 0, 0, 0.09) 0 16px 8px,
+    rgba(0, 0, 0, 0.09) 0 32px 16px;
+    transition: all 0.2s ease;
+}
+
+.AddToCart:hover {
+    box-shadow: rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset,
+    rgba(0, 0, 0, 0.15) 0 -36px 30px 0 inset,
+    rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset,
+    rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 4px 2px,
+    rgba(0, 0, 0, 0.09) 0 8px 4px, rgba(0, 0, 0, 0.09) 0 16px 8px,
+    rgba(0, 0, 0, 0.09) 0 32px 16px;
+    transition: all 0.2s ease;
+}
+
+@media (max-width: 768px) {
+    .product_container {
+        margin: 2rem;
+        width: 40%;
+    }
+
+    .next-previous {
+        width: 37%;
+        padding-left: 7rem;
+        margin-left: 7rem;
+    }
+
+    .pagination {
+        margin-left: 0;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+    }
+
+    .product_container {
+        margin-right: 2rem;
+        padding: 0.95rem;
+        width: 222px;
+    }
+
+    .next-previous {
+        width: 46%;
+        padding-left: 5rem;
+        margin-left: 6rem;
+    }
+
+    .cardImage {
+        padding-left: 6px;
+        width: 99%;
+    }
+
+    .p_price {
+        padding-top: 0.75rem;
+        padding-left: 4rem;
+    }
+
+    .title {
+        padding-top: 16px;
+        padding-left: 16px;
+    }
+
+    .p_price {
+        padding-top: 16px;
+        padding-left: 16px;
+    }
+
+}

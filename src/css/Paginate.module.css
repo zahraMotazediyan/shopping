@@ -1,0 +1,39 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.next_previous {
+    display: flex;
+    width: 358px;
+    height: 2rem;
+    justify-content: space-between;
+    padding: 0.55rem;
+    font-size: 1.1rem;
+    color: #0d6efd;
+}
+
+.next_previous li:hover {
+    text-shadow: 2px 2px 4px #000000;
+    color: #0d6efd;
+    border: 1px solid silver;
+    border-radius: 2rem;
+    box-sizing: unset;
+}
+
+.next_previous a {
+    color: #0d6efd;
+}
+
+* {
+    box-sizing: revert;
+}
+
+.bg_color {
+    background-color: black;
+}

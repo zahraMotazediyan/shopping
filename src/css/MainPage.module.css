@@ -1,0 +1,125 @@
+.footer {
+    height: 32%;
+    width: 100%;
+    background-color: #3c4d6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer img {
+    width: 5%;
+    margin-top: 1rem;
+    border-radius: 2rem;
+}
+
+.smart {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.shop {
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.line_white {
+    background-color: white;
+    width: 100%;
+}
+
+.span_2023 {
+    color: white;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.width_hr {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.flex_1 {
+    flex: 1;
+}
+
+.p_go {
+    margin: 0;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    color: white;
+    padding-bottom: 0.25rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.f_shop {
+    font-size: large;
+}
+
+.text_box {
+    text-align: left;
+}
+
+.w_color {
+    color: #fff;
+}
+
+.w_51 {
+    width: 47%;
+    height: 20.3rem;
+    margin: 2rem auto;
+    border-radius: 1rem;
+}
+
+.bg_color {
+    background-color: #3c4d6d;
+}
+
+@media (max-width: 765px) {
+    .carousel_caption {
+        position: absolute;
+        right: 15%;
+        bottom: 1.25rem;
+        left: 15%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+
+    .w_51 {
+        height: 17.3rem;
+        margin: 2rem auto;
+    }
+
+    .width_hr {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .w_51 {
+        height: 12.3rem;
+        width: 13rem;
+        margin-top: 19%;
+    }
+}
+
+@media (min-width: 768px ) {
+
+    .w_51 {
+        margin: 1rem auto;
+    }
+}
